@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Discord Panel</title>
+</head>
+<body>
+
+<h1>Your Servers</h1>
+
+<% guilds.forEach(guild => { %>
+
+  <div style="margin-bottom:10px;">
+    <%= guild.name %>
+  </div>
+
+<% }) %>
+
+</body>
+</html>
